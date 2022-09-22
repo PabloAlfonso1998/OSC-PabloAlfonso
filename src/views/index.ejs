@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+    <%- include('partials/head') %>
+</head>
+<body>
+
+    <%- include('partials/navigation') %>
+
+    <!--Main Content-->
+
+    <header class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="/img/illustration-hero.svg" alt="" class="w-46">
+            <h1 class="display-1 my-5 text-uppercase fw-bold">Order Summary</h1>
+            <p class="w-36">You can now listen to millions of songs, audiobooks, and podcasts on any 
+                device anywhere you like!</p>
+            <p class="w-36">Annual Plan:
+                $59.99/year
+            </p>
+            <a href="/" class="btn btn-primary w-25">Order your payment</a>
+            <a href="/" class="btn">Cancel your Order</a>
+        </div>
+    </header>
+
+    <%- include('partials/footer') %>
+</body>
+</html>
